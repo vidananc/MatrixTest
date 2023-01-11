@@ -26,7 +26,7 @@ public class Test
     {
         return matrix;//此处省略转化过程，只表示整体框架
     }
-    public static long transform(int[][] matrix)//将8阶01矩阵转化为未向量
+    public static long transform(int[][] matrix)//将8阶01矩阵转化为位向量
     {
         long result = 0;
         for(int i = 0; i < matrix.length; i++)
