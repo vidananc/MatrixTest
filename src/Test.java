@@ -10,7 +10,7 @@ public class Test
         long temp;
         for(int i = 0; i < matrix.length; i++)
         {
-            matrix[i] = (long)(Math.random() * 100);//随机生成0-1000之间的数，模拟转化后的位向量表示的矩阵
+            matrix[i] = (long)(Math.random() * 100);//随机生成0-100之间的数，模拟转化后的位向量表示的矩阵
         }
         for(long e: matrix)
         {
